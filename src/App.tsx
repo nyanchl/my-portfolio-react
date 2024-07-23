@@ -1,13 +1,8 @@
-import { useState } from 'react'
-
-import './App.css'
-
-function App() {
-  const Animals = ['Dog', 'Cat', 'Bird', 'Fish', 'Rabbit']
-  const animals = Animals.map((animal) => <li key={animal}>{animal}</li>)
+const App = () => {
   return (
     <>
-      <ul>{animals}</ul>
+      <h1>Hello, world!</h1>
+      <h2>Start editing to see some magic happen!</h2>
     </>
   )
 }
