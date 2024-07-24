@@ -1,13 +1,16 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import Rhythm from "./myapps/rhythmgame";
+// import useState from "react";
 
 export const Myapps: React.FC = () => {
   return (
-    <Routes>
-      <Route path="/rhythm" element={<Rhythm/>} />
-      <h1>Hello, world!</h1>
-    </Routes>
+    <BrowserRouter>
+      <Link to="/rhythm"><img src="img/rhythm.png" alt=""/>音ゲー</Link>
+      <Routes>
+        <Route path="/rhythm" element={<Rhythm />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
