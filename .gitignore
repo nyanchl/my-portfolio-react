@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# configs
+tsconfig.app.json
+tsconfig.json
+tsconfig.node.json
+vite.config.ts
