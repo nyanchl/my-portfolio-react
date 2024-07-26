@@ -24,6 +24,4 @@ dist-ssr
 *.sw?
 
 # configs
-tsconfig.app.json
-tsconfig.node.json
 vite.config.ts
